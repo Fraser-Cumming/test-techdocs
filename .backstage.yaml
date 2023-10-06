@@ -1,0 +1,16 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: xero
+  title: Xero
+  description: A service to integrate with Xero.
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+  description: A service that handles communication with Xero
+  name: xero-logic
+  title: xero-logic

@@ -1,0 +1,9 @@
+site_name: 'xero-docs'
+
+nav:
+  - Home: index.md
+  - Dashboards: dashboards.md
+  - Runbooks: runbook.md
+
+plugins:
+  - techdocs-core
