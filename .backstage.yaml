@@ -6,6 +6,8 @@ metadata:
   labels:
     example.com/custom: custom_label_value
   annotations:
+    backstage.io/managed-by-location: 
+url:https://github.com/Fraser-Cumming/test-techdocs/blob/main/.backstage.yaml
     backstage.io/techdocs-ref:dir:.
   tags:
     - java
